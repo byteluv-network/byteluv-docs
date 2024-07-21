@@ -1,0 +1,39 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+@font-face {
+  font-family: 'Mandalika';
+  src: url(./fonts/Mandalika.otf) format('opentype');
+  font-style: normal;
+  font-weight: 1000;
+}
+
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-font-family-base: 'Mandalika', sans-serif;
+  --ifm-color-primary: #ffb7c5;
+  --ifm-color-primary-dark: #ff7792;
+  --ifm-color-primary-darker: #ff6282;
+  --ifm-color-primary-darkest: #fd496d;
+  --ifm-color-primary-light: #ff6d8a;
+  --ifm-color-primary-lighter: #fa8da3;
+  --ifm-color-primary-lightest: #fe96ab;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-font-family-base: 'Mandalika', sans-serif;
+  --ifm-color-primary: #ffb7c5;
+  --ifm-color-primary-dark: #ff7792;
+  --ifm-color-primary-darker: #ff6282;
+  --ifm-color-primary-darkest: #fd496d;
+  --ifm-color-primary-light: #ff6d8a;
+  --ifm-color-primary-lighter: #fa8da3;
+  --ifm-color-primary-lightest: #fe96ab;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
