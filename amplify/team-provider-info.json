@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-byteluvdocs-dev-8c774-authRole",
+      "UnauthRoleArn": "arn:aws:iam::079975179261:role/amplify-byteluvdocs-dev-8c774-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::079975179261:role/amplify-byteluvdocs-dev-8c774-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-byteluvdocs-dev-8c774-deployment",
+      "UnauthRoleName": "amplify-byteluvdocs-dev-8c774-unauthRole",
+      "StackName": "amplify-byteluvdocs-dev-8c774",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:079975179261:stack/amplify-byteluvdocs-dev-8c774/298ea970-4d81-11ef-a903-025f63a3c509",
+      "AmplifyAppId": "d2tj1bcmog7xah"
+    }
+  }
+}

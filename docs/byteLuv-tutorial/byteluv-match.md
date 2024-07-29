@@ -4,149 +4,44 @@ sidebar_position: 4
 
 # ByteLuv Match
 
-Docusaurus supports **[Markdown](https://daringfireball.net/projects/markdown/syntax)** and a few **additional features**.
+Matching is why all of you are here. Get ready to be mind-blown by the power of ByteLuv's matching mechanism.
 
-## Front Matter
+## Liking with \$BLUV - Staking
 
-Markdown documents have metadata at the top called [Front Matter](https://jekyllrb.com/docs/front-matter/):
+Instead of liking, you will need to show how much you like them by staking \$BLUV from your **[stash](terminologies-of-byteluv.md#stash)**. Here are a list of what you can do with the staking feature:
+1. Once staked one someone, he/she will be able to see that you have staked on them.
+2. To match, the other party will need to stake back on you. **( THE SAME AMOUNT )**
+3. If the other party does not stake back, you will get your \$BLUV back after today's game ends.
+4. If the other party staked back, you will be matched and the staked amount will be **[matched-frozen](terminologies-of-byteluv.md#matched-frozen)**.
 
-```text title="my-doc.md"
-// highlight-start
----
-id: my-doc-id
-title: My document title
-description: My document description
-slug: /my-custom-url
----
-// highlight-end
+## Matched
 
-## Markdown heading
+After you matched with someone, you will be able to get the other party's contact information. You can then proceed to contact them and arrange for a date.
 
-Markdown text with [links](./hello.md)
-```
+*Note about your tokens being matched-frozen: This will affect the number of tokens in your stash the next round*
 
-## Links
+## Unmatching
 
-Regular Markdown links are supported, using url paths or relative file paths.
+Breaking a match is the process of unmatching with another `user`. This will allow you to unlock the **[Matched-Frozen](terminologies-of-byteluv.md#matched-frozen)** \$BLUV tokens and return them to your **[stash](./terminologies-of-byteluv.md#stash)**.
 
-```md
-Let's see how to [Create a page](/create-a-page).
-```
+**But here's the catch:**
+- You will need to choose 2 options about the other party:
+  - Enjoyed Match
+  - Not Enjoyed Match
+- The other party will also need to choose the same option as you to unlock the matched-frozen tokens.
+- The outcome of this is as below:
+  - Where 100% is the total amount of matched-frozen tokens of both parties. 
 
-```md
-Let's see how to [Create a page](./create-a-page.md).
-```
+    |                                     | User B: Enjoyed Match | User B: Not Enjoyed Match |
+    |-------------------------------------|-----------------------|---------------------------|
+    | Player A: Enjoyed Match             | A: 50%, B: 50%        | A: 20%, B: 80%            |
+    | Player A: Not Enjoyed Match         | A: 80%, B: 20%        | A: 20%, B: 20%            |
 
-**Result:** Let's see how to [Create a page](./create-a-page.md).
-
-## Images
-
-Regular Markdown images are supported.
-
-You can use absolute paths to reference images in the static directory (`static/img/docusaurus.png`):
-
-```md
-![Docusaurus logo](/img/docusaurus.png)
-```
-
-![Docusaurus logo](/img/docusaurus.png)
-
-You can reference images relative to the current file as well. This is particularly useful to colocate images close to the Markdown files using them:
-
-```md
-![Docusaurus logo](./img/docusaurus.png)
-```
-
-## Code Blocks
-
-Markdown code blocks are supported with Syntax highlighting.
-
-````md
-```jsx title="src/components/HelloDocusaurus.js"
-function HelloDocusaurus() {
-  return <h1>Hello, Docusaurus!</h1>;
-}
-```
-````
-
-```jsx title="src/components/HelloDocusaurus.js"
-function HelloDocusaurus() {
-  return <h1>Hello, Docusaurus!</h1>;
-}
-```
-
-## Admonitions
-
-Docusaurus has a special syntax to create admonitions and callouts:
-
-```md
-:::tip My tip
-
-Use this awesome feature option
-
+:::tip Always Enjoy the Match
+For both parties to get the most out of the match, it is recommended to always choose the `Enjoyed Match` option.
 :::
 
-:::danger Take care
-
-This action is dangerous
-
-:::
-```
-
-:::tip My tip
-
-Use this awesome feature option
-
+:::danger Not Enjoyed Match
+If both parties choose the `Not Enjoyed Match` option, both parties will lose 80% of the matched-frozen tokens and the tokens goes to the platform.
 :::
 
-:::danger Take care
-
-This action is dangerous
-
-:::
-
-## MDX and React Components
-
-[MDX](https://mdxjs.com/) can make your documentation more **interactive** and allows using any **React components inside Markdown**:
-
-```jsx
-export const Highlight = ({children, color}) => (
-  <span
-    style={{
-      backgroundColor: color,
-      borderRadius: '20px',
-      color: '#fff',
-      padding: '10px',
-      cursor: 'pointer',
-    }}
-    onClick={() => {
-      alert(`You clicked the color ${color} with label ${children}`)
-    }}>
-    {children}
-  </span>
-);
-
-This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
-
-This is <Highlight color="#1877F2">Facebook blue</Highlight> !
-```
-
-export const Highlight = ({children, color}) => (
-  <span
-    style={{
-      backgroundColor: color,
-      borderRadius: '20px',
-      color: '#fff',
-      padding: '10px',
-      cursor: 'pointer',
-    }}
-    onClick={() => {
-      alert(`You clicked the color ${color} with label ${children}`);
-    }}>
-    {children}
-  </span>
-);
-
-This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
-
-This is <Highlight color="#1877F2">Facebook blue</Highlight> !
