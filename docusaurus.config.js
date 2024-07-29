@@ -67,11 +67,11 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            to: '/pink-paper', 
-            label: 'PinkPaper', 
-            position: 'left'
-          },
+          // {
+          //   to: '/pink-paper', 
+          //   label: 'PinkPaper', 
+          //   position: 'left'
+          // },
           {
             href: 'https://github.com/byteluv-network/byteluv-docs',
             label: 'GitHub',
@@ -87,7 +87,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/intro',
+                to: '/',
               },
             ],
           },
@@ -111,10 +111,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
