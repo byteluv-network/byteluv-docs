@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Profile Verifiers
 
-Earn \$BLUV by verifying profiles on ByteLuv. Every profile will need to be verified by a verifier before they can play the game.
+Earn $BLUV by verifying profiles on ByteLuv. Every profile will need to be verified by a verifier before they can play the game.
 
 ## Pre-requisite
 
@@ -76,9 +76,9 @@ Reputation rewards are given to verifiers based on their reputation score. The r
 1. If a verifier's reputation score falls below 50%, they will be penalized. The penalty is as follows:
     - **Penalty**: 50% of the rewards will be deducted for a reputation score below 50%.
     - **Slashing**: The verifier will be slashed if the reputation score falls below:
-        a. 20%: 80% of the stake will be [slash](#verifier-slash).
+        a. 20%: 80% of the stake will be [slash](#verifier-slashing).
             - A top-up of 80% of the stake is required to continue as a verifier.
-        b. 10%: 100% of the stake will be [slash](#verifier-slash).
+        b. 10%: 100% of the stake will be [slash](#verifier-slashing).
             - The verifier will be removed from the system.
 2. If a verifier's reputation score falls below 90%, they will be penalized. The penalty is as follows:
     - **Penalty**: 10% of the rewards will be deducted for a reputation score below 90%.

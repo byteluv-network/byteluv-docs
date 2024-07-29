@@ -23,7 +23,7 @@ Here are the terms used in ByteLuv to manage your $BLUV tokens while using the p
 `Stash` is the tokens that you have locked in your wallet.
 1. `Stash` is the amount of tokens that you have locked in your wallet.
 2. Actions that you take in the game will affect the amount of tokens in your `stash` through **[freezing](#freeze)**  (e.g. staking on other users, playing games)
-3. `Stash` will be reset at the beginning each \$BLUV cycle, unless you **[match](./byteluv-match#match)** with another user.
+3. `Stash` will be reset at the beginning each \$BLUV cycle, unless you **[match](byteluv-match)** with another user.
 
 ## Freeze
 
@@ -32,5 +32,5 @@ Here are the terms used in ByteLuv to manage your $BLUV tokens while using the p
 
 ## Matched-Frozen
 
-`Matched-Frozen` is the process of locking a certain amount of $BLUV tokens in your **[stash](#stash)** after you have **[match](./byteluv-match#match)** with another user. This amount of tokens will be brought forward from game to game until you decide to **[match](./byteluv-match#unmatch)** with the user or you have matched successfully.
+`Matched-Frozen` is the process of locking a certain amount of $BLUV tokens in your **[stash](#stash)** after you have **[match](byteluv-match)** with another user. This amount of tokens will be brought forward from game to game until you decide to **[match](./byteluv-match)** with the user or you have matched successfully.
 - *Think of it as a commitment to the other user that you are interested in them.*
