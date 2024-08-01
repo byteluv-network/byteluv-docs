@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cumulative Token Release Schedule</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+
+<body>
+    <div id="container" style="width:100%; height:400px;"></div>
+    <script>
+        // Define token distribution amounts
+        const playersInitial = 2000000;
+        const verifiersInitial = 2000000;
+        const reserveInitial = 45000000;
+        const developersInitial = 200000;
+        const communityInitial = 800000;
+        const liquidityInitial = 50000000;
+
+        // Monthly distributions converted to weekly
+        const playersWeekly = (200000000 - playersInitial + 100000000 + 195000000) / 240;
+        const verifiersWeekly = (2970000000 - verifiersInitial) / 240;
+        const reserveWeekly = (2970000000 - reserveInitial) / 240;
+        const developersWeekly = (990000000 - developersInitial) / 240;
+        const communityWeekly = (1485000000 - communityInitial) / 240;
+        const liquidityWeekly = (990000000 - liquidityInitial) / 240;
+
+        // Calculate weekly cumulative sums
+        function calculateCumulative(weeklyRate, initial, weeks) {
+            const cumulative = new Array(weeks);
+            cumulative[0] = initial;
+            for (let i = 1; i < weeks; i++) {
+                cumulative[i] = cumulative[i - 1] + weeklyRate;
+            }
+            return cumulative;
+        }
+
+        // Weeks array
+        const weeks = [...Array(260).keys()].map(x => x + 1);  // Weeks from 1 to 260
+
+        // Generate data
+        const playersData = calculateCumulative(playersWeekly, playersInitial, 260);
+        const verifiersData = calculateCumulative(verifiersWeekly, verifiersInitial, 260);
+        const reserveData = calculateCumulative(reserveWeekly, reserveInitial, 260);
+        const developersData = calculateCumulative(developersWeekly, developersInitial, 260);
+        const communityData = calculateCumulative(communityWeekly, communityInitial, 260);
+        const liquidityData = calculateCumulative(liquidityWeekly, liquidityInitial, 260);
+
+        // Initialize Highcharts
+        Highcharts.chart('container', {
+            chart: {
+                type: 'area'
+            },
+            title: {
+                text: 'Cumulative Token Release Schedule for BLUV Over 5 Years (Weekly)'
+            },
+            xAxis: {
+                categories: weeks,
+                tickmarkPlacement: 'on',
+                title: {
+                    text: 'Weeks'
+                }
+            },
+            yAxis: {
+                title: {
+                    text: 'Total Tokens Released (cumulative)'
+                },
+                labels: {
+                    formatter: function () {
+                        return this.value / 1e6 + 'M';
+                    }
+                }
+            },
+            tooltip: {
+                split: true,
+                valueSuffix: ' tokens'
+            },
+            plotOptions: {
+                area: {
+                    stacking: 'normal',
+                    lineColor: '#666666',
+                    lineWidth: 1,
+                    marker: {
+                        lineWidth: 1,
+                        lineColor: '#666666'
+                    }
+                }
+            },
+            series: [{
+                name: 'Players',
+                data: playersData
+            }, {
+                name: 'Verifiers',
+                data: verifiersData
+            }, {
+                name: 'Reserve',
+                data: reserveData
+            }, {
+                name: 'Developers',
+                data: developersData
+            }, {
+                name: 'Community',
+                data: communityData
+            }, {
+                name: 'Liquidity Pools',
+                data: liquidityData
+            }]
+        });
+    </script>
+</body>
+
+</html>
