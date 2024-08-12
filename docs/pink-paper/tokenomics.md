@@ -52,8 +52,8 @@ The platform will grow slowly in batches. The initial supply of `100,000,000 BLU
         - Reserved for the next set of players to join the ByteLuv ecosystem. That will be on the waiting list to be verified.
     - **Initial Developer Reserve Allocation**: 5,000,000 BLUV
         - Reserved for the developers to continue building the platform.
-6. **Liquidity Pools**: 50,000,000 BLUV
-    - **Initial LP Allocation**: 50,000,000 BLUV
+6. **Direct Token Sale **: 50,000,000 BLUV
+    - **Initial Coin Offering - Public Sale**: 50,000,000 BLUV
 
 ### Future Supply
 ![Total Supply Distribution](./charts/static/bluv-token-distribution.jpeg)
@@ -64,7 +64,7 @@ The remaining `9,900,000,000 BLUV` will be distributed over time as the platform
 3. **Developers**: 10%
 4. **Community**: 15%
 5. **Reserve**: 30%
-6. **Liquidity Pools**: 10%
+6. **Direct Token Sale**: 10%
 
 ## Release Schedule
 ![Release Schedule](./charts/static/bluv-release-schedule.png)
@@ -133,20 +133,17 @@ The supply of $BLUV will be released over time as the platform grows. The releas
                 - Released weekly in batches of 1,000,000 BLUV.
                 - The release will be done in batches of 1,000,000 BLUV per week until the total allocation is exhausted.
 
-6. **Liquidity Pools**:
-    - **Total Allocation for Liquidity Pools**: 990,000,000 BLUV
+6. **Direct Token Sale Platform**:
+    - **Total Allocation for Direct Token Sale Platform**: 990,000,000 BLUV
     - **Release Mechanism**: 
-        In the initial supply, there will be 50,000,000 BLUV reserved for the liquidity pools. The remaining 990,000,000 BLUV will be released to the liquidity pools in the following manner:
-        - **Liquidity Pools Allocation**
-            - **Initial LP Allocation**: 50,000,000 BLUV
-                - Reserved for the liquidity pools to start the platform.
-            - **LP Incentives**: 50,000,000 BLUV
-                - Incentives for the liquidity pools to participate in the ByteLuv ecosystem.
+        In the initial supply, there will be 50,000,000 BLUV reserved for the direct token sale. The remaining 990,000,000 BLUV will be released to the liquidity pools in the following manner:
+        - **Direct Token Sale Allocation**
+            - **Direct Token Sale Allocation**: 50,000,000 BLUV
+                - Reserved for the direct token sale.
+            - **Public Sale Allocation**: 940,000,000 BLUV
+                - Reserved for the public sale.
                 - Released weekly in batches of 1,000,000 BLUV.
-                - The release will be done in batches of 10,000,000 BLUV per week until the total allocation is exhausted.
-            - **LP Reserve Allocation**: 890,000,000 BLUV
-                - Reserved for the liquidity pools to continue building the platform.
-                - Weekly release of 5,000,000 BLUV until the total allocation is exhausted.
+                - The release will be done in batches of 1,000,000 BLUV per week until the total allocation is exhausted.
 
 ## Tokenomics Summary
 The above tokenomics is designed to ensure a fair distribution of $BLUV tokens to all actors in the ByteLuv ecosystem. The release schedule ensures that the tokens are distributed over time as the platform grows, incentivizing the growth of the ecosystem. The tokenomics also provide incentives for players, verifiers, developers, and the community to actively participate in the ByteLuv ecosystem.
