@@ -17,6 +17,6 @@ We built a totally different approach to dating, allowing users to interact with
 
 ## How does ByteLuv work?
 
-Let's say you are looking for a date. Just like real life, you will go to a place to meet people. In ByteLuv, you will be able to choose places to meet people, such as a park, a restaurant, or a bar. Based on the locations you pick, you will be able to see other users who are also looking for a date in the same place. You can then think of $BLUV tokens as the time you have to spend in order to interact with other users. You can spend $BLUV tokens to interact with other users, such as staking on them. If the other user is also interested in you, they can stake on you as well. If both users stake on each other, they can start chatting and get to know each other better. 
+Let's say you are looking for a date. Just like real life, you will go to a place to meet people. In ByteLuv, you will be able to choose places to meet people, such as a park, a restaurant, or a bar. Based on the locations you pick, you will be able to see other users who are also looking for a date in the same place. You can then think of \$BLUV tokens as the time you have to spend in order to interact with other users. You can spend \$BLUV tokens to interact with other users, such as staking on them. If the other user is also interested in you, they can stake on you as well. If both users stake on each other, they can start chatting and get to know each other better. 
 
 Dive deeper into the ByteLuv - Tutorial section to learn more about how to use ByteLuv.

@@ -27,7 +27,7 @@ Here are the terms used in ByteLuv to manage your $BLUV tokens while using the p
 
 ## Freeze
 
-`Freezing` is the process of locking a certain amount of $BLUV tokens in your **[stash](#stash)** until the end of the \$BLUV cycle.
+`Freezing` is the process of locking a certain amount of \$BLUV tokens in your **[stash](#stash)** until the end of the \$BLUV cycle.
 - Typically, you will freeze your tokens after using balance in you **[stash](#stash)** to stake on other users or playing games.
 
 ## Matched-Frozen
