@@ -28,7 +28,6 @@ Used to vote on proposals in the ByteLuv ecosystem.
 2. **Community**: Proposal voting for the development of the platform.
 
 ## Token Distribution
-The token distribution is split into 2 parts:
 
 ### Initial Supply
 ![Initial Supply Distribution](./charts/static/initial-token-distribution.png)
@@ -62,32 +61,7 @@ This means that one player will be able to earn 200 BLUV per cycle, and 100 BLUV
 The Exchange Liquidity tokens will be there to facilitate the trading of the token on the exchanges. Users with not enough tokens to start the cycle can buy from the exchange and start the cycle.
 :::
 
-## Inflation Rate
-![Inflation Rate Formula](./charts/static/inflation_rate_plot.png)
-
-ByteLuv will be an inflationary token with a logarithmically decreasing inflation rate. The inflation rate will decrease over time as the platform grows stop at a constant rate of 1% per year. The inflation rate will be designed in such a way that it drives exponential growth in the ByteLuv ecosystem. The inflation rate will be calculated as follows:
-
-$$
-\text{Inflation Rate} = \text{Initial Rate} \times \frac{1}{\log_{b}\left(\frac{\text{Games Played}}{90} + 2\right)}
-$$
-
-- **Initial Rate**: The starting inflation rate.
-- **Games Played**: Cumulative number of games played.
-- **\( b \)**: Logarithmic base, adjustable to control the rate of decrease.
-
-![Minted Tokens Over 10 Years](./charts/static/10_year_minted_plot.png)
-
-The inflation rate will be calculated every 90 games played (Per 90 days). The inflation rate will decrease over time as the number of games played increases. The inflation rate will be capped at 2% per year.  The inflation rate will be used to mint new tokens to incentivize the growth of the ByteLuv ecosystem.
-
-## Burn Rate
-
-Tokens will be burnt only when users match with each other and are happy with the match, which is the final outcome of the game - 2 people matching with each other and being happy with the match. The rewards that are allocated to players will be burnt if not claimed within 30 days.
-
-:::note
-Players will need to be active and play the game to claim the rewards. If the rewards are not claimed within 30 days, the rewards will be burnt. This will incentivize the players to be active and play the game and if they do not it benefits the ecosystem by reducing the supply of the tokens.
-:::
-
-## Release Schedule
+### Release Schedule
 ![Release Schedule](./charts/static/10_year_supply_plot.png)
 
 The supply of \$BLUV will be released daily based on the inflation rate at that point of time. This amount of tokens that will be minted will act as rewards for the players and as well as new players that are joining the ecosystem. After incentivizing players, the tokens will be allocated to the verifiers and the developers. The remaining tokens will be allocated to the liquidity pools and the community. Below is the release schedule of the \$BLUV tokens:
@@ -113,6 +87,43 @@ The supply of \$BLUV will be released daily based on the inflation rate at that 
 
 5. **Exchange Liquidity**: 5% of the tokens minted
     - These tokens will be used to provide liquidity on the exchanges
+
+
+## Inflation Rate
+![Inflation Rate Formula](./charts/static/inflation_rate_plot.png)
+
+ByteLuv will be an inflationary token with a logarithmically decreasing inflation rate. The inflation rate will decrease over time as the platform grows stop at a constant rate of 1% per year. The inflation rate will be designed in such a way that it drives exponential growth in the ByteLuv ecosystem. The inflation rate will be calculated as follows:
+
+$$
+\text{Inflation Rate} = \text{Initial Rate} \times \frac{1}{\log_{b}\left(\frac{\text{Games Played}}{90} + 2\right)}
+$$
+
+- **Initial Rate**: The starting inflation rate.
+- **Games Played**: Cumulative number of games played.
+- **\( b \)**: Logarithmic base, adjustable to control the rate of decrease.
+
+![Minted Tokens Over 10 Years](./charts/static/10_year_minted_plot.png)
+
+The inflation rate will be calculated every 90 games played (Per 90 days). The inflation rate will decrease over time as the number of games played increases. The inflation rate will be capped at 2% per year.  The inflation rate will be used to mint new tokens to incentivize the growth of the ByteLuv ecosystem.
+
+:::note
+This will also means that the demand for the token will be capped by the number of new players that are joining the ecosystem. If the players exceed the number of tokens that are minted, the players will need to buy from the exchange to start the game.
+:::
+
+## Burn Rate
+
+Tokens will be burnt when users match with each other and are happy with the match, which is the final outcome of the game - 2 people matching with each other and being happy with the match. The rewards that are allocated to players will be burnt if not claimed within 30 days. 
+
+:::note
+Players will need to be active and play the game to claim the rewards. If the rewards are not claimed within 30 days, the rewards will be burnt. This will incentivize the players to be active and play the game and if they do not it benefits the ecosystem by reducing the supply of the tokens.
+:::
+
+Random 5% of the tokens spend in game liking will be burnt. This will be a luck based mechanism that will add to gamification of the game and balancing the supply of the token.
+
+
+## Freezing Mechanism
+
+Every user need to freeze \$100 to start the game. The duration of the freeze depends on whether or not a user finds a match and how long the match lasts. This also helps massively in controlling the supply of the token and the number of users that are onboarding the platform, as users can only start the game if they have enough tokens to freeze.
 
 ## Tokenomics Summary
 The above tokenomics is designed to ensure a fair distribution of $BLUV tokens to all actors in the ByteLuv ecosystem. The release schedule ensures that the tokens are distributed over time as the platform grows, incentivizing the growth of the ecosystem. The tokenomics also provide incentives for players, verifiers, developers, and the community to actively participate in the ByteLuv ecosystem.

@@ -6,11 +6,23 @@ sidebar_position: 1
 
 At ByteLuv, we aim to be the most realistic and transparent dating platform in the world. We believe that the current dating platforms are not transparent enough and are not realistic. For example, someone that came from another country will get pushed up in a different country, which is not very realistic considering the fact that they do not know anything about this country. Algorithms have caused this social world to lose so much of its authenticity. We are here to change that. 
 
+:::note
+You can relate it as a game where you have fixed amount of resources and you make decisions, and you meet people based on them and after all, there is gamification with the element of gaining and losing $BLUV tokens.
+:::
+
 With the Pink Paper, we will show you every single detail about our platform, down to every single line of code. We will show you how we are different from other platforms and how we are changing the dating world. We will show you how we are making the dating world more realistic and transparent.
+
+# Gamification of Dating
+
+We believe that dating should be fun and exciting. We believe that dating should be more than just swiping left or right. Hence, we allow the users to play a game where winning can be more than just finding a match and the element of losing is also there. This is the best way to make dating more fun and exciting and users will have more incentive to use the platform.
+
+:::note
+Winning more than what you have and losing based on your decisions is the key element of the game.
+:::
 
 # Decentralization
 
-We are a decentralized platform. This means that everyone will have a say in the platform. We will have a voting system where everyone can vote on the changes that they want to see. We will also have a system where everyone can see the changes that are being made to the platform. We believe that this is the best way to make a platform that is truly transparent and realistic.
+From verification to verification, ByteLuv stands as the only platform that allows true decentralized verification of profiles. Which also mean that anyone can be a verifier and verify profiles, with profiles that are falsely verified being pointed out by the community. This is the best way to make sure that the platform is safe, secure and transparent.
 
 # Transparency with Privacy
 
