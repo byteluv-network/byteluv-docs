@@ -125,6 +125,10 @@ Random 5% of the tokens spend in game liking will be burnt. This will be a luck 
 
 Every user need to freeze \$100 to start the game. The duration of the freeze depends on whether or not a user finds a match and how long the match lasts. This also helps massively in controlling the supply of the token and the number of users that are onboarding the platform, as users can only start the game if they have enough tokens to freeze.
 
+## Simulated Circulation
+
+You can read more about the circulation of the token in the **[Cycle of $BLUV](./cycle.md)** section.
+
 ## Tokenomics Summary
 The above tokenomics is designed to ensure a fair distribution of $BLUV tokens to all actors in the ByteLuv ecosystem. The release schedule ensures that the tokens are distributed over time as the platform grows, incentivizing the growth of the ecosystem. The tokenomics also provide incentives for players, verifiers, developers, and the community to actively participate in the ByteLuv ecosystem.
 

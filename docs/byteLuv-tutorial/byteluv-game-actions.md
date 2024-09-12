@@ -12,6 +12,10 @@ These are the only actions you can perform in the ByteLuv game. Each action will
     - Users need to set a minimum amount of \$BLUV tokens for other users to stake on them.
     - Users can see who staked on them and how much they staked.
 
+:::danger
+There is a 5% chance the tokens you spend staking will be lost, think carefully, is he/she the one? Is it worth the risk?
+:::
+
 ## Soft Eliminate
 
 `Soft Eliminating` is the process of committing a certain amount of \$BLUV tokens to another user, from your **[stash](./terminologies-of-byteluv#stash)**. This action will allow you to keep the user's profile brought forward to the next round of the game, but you will not be able to interact with them this round.
