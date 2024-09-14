@@ -61,8 +61,10 @@ This means that one player will be able to earn 200 BLUV per cycle, and 100 BLUV
 The Exchange Liquidity tokens will be there to facilitate the trading of the token on the exchanges. Users with not enough tokens to start the cycle can buy from the exchange and start the cycle.
 :::
 
-### Release Schedule
+### Release Schedule & Distribution
 ![Release Schedule](./charts/static/10_year_supply_plot.png)
+
+![Token Mint Distribution](./charts/static/token-mint-distribution.jpeg)
 
 The supply of \$BLUV will be released daily based on the inflation rate at that point of time. This amount of tokens that will be minted will act as rewards for the players and as well as new players that are joining the ecosystem. After incentivizing players, the tokens will be allocated to the verifiers and the developers. The remaining tokens will be allocated to the liquidity pools and the community. Below is the release schedule of the \$BLUV tokens:
 

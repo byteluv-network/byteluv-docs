@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Token Distribution</title>
+    <title>Token Mint Distribution</title>
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/export-data.js"></script>
@@ -33,7 +33,7 @@
                 }
             },
             title: {
-                text: 'BLUV Token Distribution',
+                text: 'Token Mint Distribution',
                 style: {
                     color: '#ffffff'
                 }
@@ -67,33 +67,29 @@
                 name: 'Tokens',
                 colorByPoint: true,
                 data: [{
-                    name: 'Initial Supply',
-                    y: 1,
+                    name: 'Players: Player Incentives',
+                    y: 25,
                     color: '#1f78b4'
                 }, {
-                    name: 'Players',
-                    y: 5,
-                    color: '#33a02c'
+                    name: 'Players: New Player Allocation',
+                    y: 25,
+                    color: '#a6cee3'
                 }, {
                     name: 'Verifiers',
                     y: 30,
-                    color: '#e31a1c'
+                    color: '#33a02c'
                 }, {
                     name: 'Developers',
                     y: 10,
-                    color: '#ff7f00'
+                    color: '#e31a1c'
                 }, {
                     name: 'Community',
-                    y: 15,
+                    y: 5,
                     color: '#6a3d9a'
                 }, {
-                    name: 'Reserve',
-                    y: 30,
+                    name: 'Exchange Liquidity',
+                    y: 5,
                     color: '#b15928'
-                }, {
-                    name: 'Direct Token Sale',
-                    y: 10,
-                    color: '#a6cee3'
                 }]
             }],
             credits: {
