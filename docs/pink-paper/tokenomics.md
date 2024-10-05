@@ -74,7 +74,7 @@ The supply of \$BLUV will be released daily based on the inflation rate at that 
             - Distributed to the players who participate in the game and complete the objectives
             - The rewards will be distributed based on the number of players who participate in the game
         - **New Player Allocation**: 50% of the tokens minted
-            - Distributed to the new players who join the ecosystem
+            - Distributed to the new players who join the ecosystem - Airdrops and rewards
             - The rewards will be distributed based on the number of new players who join the ecosystem
 
 2. **Verifiers**: 30% of the tokens minted
