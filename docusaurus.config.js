@@ -99,21 +99,13 @@ const config = {
           {
             title: 'Community',
             items: [
-              // {
-              //   label: 'Stack Overflow',
-              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              // },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/byteluv',
-              },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/byteluv_network',
+                href: 'https://x.com/byteluvnetwork',
               },
               {
                 label: 'Telegram',
-                href: 'https://t.me/byteluv_network',
+                href: 'https://t.me/byteluv',
               }
             ],
           },
