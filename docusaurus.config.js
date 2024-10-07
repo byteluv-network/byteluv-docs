@@ -71,10 +71,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'ByteLuv Wiki',
+        title: 'Wiki',
         logo: {
           alt: 'ByteLuv Logo',
-          src: 'img/byteluv-logo.svg',
+          src: 'img/byteluv-logo-text.png',
         },
         items: [
           {
