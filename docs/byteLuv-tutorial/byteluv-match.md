@@ -34,8 +34,8 @@ Breaking a match is the process of unmatching with another `user`. This will all
 
     |                                     | User B: Enjoyed Match | User B: Not Enjoyed Match |
     |-------------------------------------|-----------------------|---------------------------|
-    | Player A: Enjoyed Match             | A: 50%, B: 50%        | A: 20%, B: 80%            |
-    | Player A: Not Enjoyed Match         | A: 80%, B: 20%        | A: 20%, B: 20%            |
+    | Player A: Enjoyed Match             | A: 50%, B: 50%        | A: 0%, B: 100%            |
+    | Player A: Not Enjoyed Match         | A: 100%, B: 0%        | A: 0%, B: 0%            |
 
 :::tip Always Enjoy the Match
 For both parties to get the most out of the match, it is recommended to always choose the `Enjoyed Match` option.

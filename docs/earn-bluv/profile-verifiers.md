@@ -39,10 +39,10 @@ Set the verification status of the player based on the information.
     - **Suspicious**: If the player is suspicious.
 
 ### Step 3: Verification Process
-Every player must be verified by at least 4 verifiers to be considered verified. The verification is calculated based on the following factors:
-    - 3 out of 4 verifiers must approve the player to be considered verified.
-    - Anything less than 75% approval rate:
-      - 4 more verifiers will be assigned to verify the player.
+Every player must be verified by at least 3 verifiers to be considered verified. The verification is calculated based on the following factors:
+    - 2 out of 3 verifiers must approve the player to be considered verified.
+    - Anything less than 2/3 approval rate:
+      - 3 more verifiers will be assigned to verify the player.
       - If the player is still not verified, the player will not be verified.
   
 ## Rewards
