@@ -4,7 +4,9 @@ sidebar_position: 1
 
 # Airdrop Program
 
-ByteLuv is launching an airdrop program to reward devnet participants and early adopters. The airdrop program will distribute $BLUV tokens to users who participate in the ByteLuv on Solana devnet and complete specific tasks.
+We're working on launching an airdrop program to reward devnet participants and early adopters. The airdrop program will distribute $BLUV tokens to users who participate in the ByteLuv on Solana devnet and complete specific tasks.
+
+<!-- ByteLuv is launching an airdrop program to reward devnet participants and early adopters. The airdrop program will distribute $BLUV tokens to users who participate in the ByteLuv on Solana devnet and complete specific tasks.
 
 ## Airdrop Rewards
 
@@ -43,4 +45,4 @@ The airdrop rewards will be distributed to participants who have successfully co
 2. Participants must complete the specified tasks to be eligible for the airdrop rewards.
 3. The airdrop rewards will be distributed to participants who have successfully completed the tasks.
 4. ByteLuv reserves the right to modify the terms and conditions of the airdrop program at any time.
-5. ByteLuv reserves the right to disqualify participants who do not comply with the terms and conditions of the airdrop program.
+5. ByteLuv reserves the right to disqualify participants who do not comply with the terms and conditions of the airdrop program. -->

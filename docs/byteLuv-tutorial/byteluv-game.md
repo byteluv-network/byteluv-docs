@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # The ByteLuv Game
@@ -8,33 +8,23 @@ This will be the place where you can find all the information you need to get st
 
 ## Requirements
 
-1. You need to have a wallet that supports the Solana network.
-2. You need to have 100 \$BLUV tokens in your wallet to start playing the game.
+You already have that from the previous sections:
+1. You need to have a wallet.
+2. You need to have 100 BLUV in your wallet to start playing the game.
 3. A verified account on ByteLuv.
 
 ## Game Information
 
 1. One round of the game will last for 24 hours.
-2. No matter how many \$BLUV tokens you have in your wallet, you can only play the game by **[locking](terminologies-of-byteluv#lock)** 100 \$BLUV tokens.
-3. At the end of day. all the \$BLUV tokens that you have locked will be automatically **[unlocked](terminologies-of-byteluv#unlock)** back into your wallet, unless you have **[Matched-Frozen](terminologies-of-byteluv#matched-frozen)** tokens with another user.
-4. You can only play the game once per day.
-
-## Game Rules
-
-1. You can only interact with users who are in the same location as you, one location at a time.
-2. After a location, you cannot go back to the previous location.
-
+2. Starting the game will require you to have at least 100 BLUV in your wallet, when you start, your useabale balance will be increased to 100 BLUV.
+3. Held tokens will be reset to 0 BLUV at the start of each round, unless you spent BLUV matching with someone.
+4. You can only interact with users who are in the same location as you
 
 ## How to Play
 
-1. At the start of the game, the users will need to choose locations to meet other users.
-    -  Choosing a location will cost you a portion of the \$BLUV tokens in your **[stash](./terminologies-of-byteluv#stash)**.
-    -  The locations you choose will determine the users you will be able to interact with.
-2. After choosing the locations, you will be able to see other users who are also looking for a date in the same place.
-3. You can then **[freeze](./terminologies-of-byteluv#freeze)** a portion of the \$BLUV tokens in your **[stash](./terminologies-of-byteluv#stash)** to perform the actions below:
-    - **[Stake](./byteluv-game-actions#stake)** on other users.
-    - **[Soft Eliminate](./byteluv-game-actions#soft-eliminate)** other users.
-    - **[Eliminate](./byteluv-game-actions#eliminate)** other users.
-4. If the other user is also interested in you, they can **[stake](byteluv-game-actions#stake)** on you as well, and you can see the amount of tokens they have staked on you, as well as thei profile.
-
-- *Let's move on to the actions of the game to learn more about how to interact with other users.*
+1. You can start the game by going to [Start Game Page](https://beta.byteluv.network/game).
+2. Click on the `Start Game` button.
+3. You will be asked to confirm the transaction in your wallet.
+4. Once the transaction is confirmed, you will be able to start choosing locations.
+5. You can choose locations by clicking on the locations.
+6. After choosing locations, you can start liking and matching with other users.

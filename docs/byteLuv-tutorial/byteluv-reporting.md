@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # ByteLuv Reporting
@@ -8,9 +8,16 @@ Reporting is an essential feature of the ByteLuv platform. It allows users to re
 
 ## How does reporting work?
 
-Reporting on ByteLuv is a straightforward process. If you come across any content or behavior that you find inappropriate, you can report it by following these steps:
+We will have a dedicated team of moderators who will review all reports submitted by users. If a report is found to be valid, appropriate action will be taken against the reported user.
 
-1. **Click on the Report Button**: When you encounter inappropriate content or behavior, look for the report button on the platform.
-2. **Wait for 9 other users to report**: Once you report the content, the platform will wait for 9 other users to report the same content before taking any action.
-3. **Content Review**: Once the content has been reported by 10 users, it will be reviewed by the platform's verifiers.
-4. **Action Taken**: Based on the verifiers' review, appropriate action will be taken, such as removing the content or banning the user responsible for the inappropriate behavior.
+## What can be reported?
+
+You can report any of the following:
+1. Inappropriate behavior
+2. Offensive content
+3. Scams or fraudulent activities
+4. Violation of platform rules
+
+## How to report?
+
+You can just text any of the admins on our [Telegram](https://t.me/ByteLuv)
