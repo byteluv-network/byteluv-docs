@@ -4,7 +4,13 @@ sidebar_position: 1
 
 # Airdrop Program
 
-We're working on launching an airdrop program to reward devnet participants and early adopters. The airdrop program will distribute $BLUV tokens to users who participate in the ByteLuv on Solana devnet and complete specific tasks.
+ByteLuv is having an early adoption program to reward early adopters. The airdrop program will distribute $BLUV tokens to users who participate in the ByteLuv on Sonic testnet and complete specific tasks.
+
+200 BLUV tokens will be distributed to users who participate in the ByteLuv on Sonic testnet and complete the following tasks:
+- Create a Solana wallet
+- Sign up on ByteLuv
+- Open your wallet and check your balance
+
 
 <!-- ByteLuv is launching an airdrop program to reward devnet participants and early adopters. The airdrop program will distribute $BLUV tokens to users who participate in the ByteLuv on Solana devnet and complete specific tasks.
 
